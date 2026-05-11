@@ -1,0 +1,51 @@
+:root {
+  /* Cores Principais */
+  --cor-primaria: #059669;
+  --cor-borda-primaria: #a7f3d0;
+  --cor-bg-primaria: #ecfdf5;
+  
+  --cor-texto-principal: #0f172a;
+  --cor-texto-secundario: #334155;
+  --cor-texto-mutado: #64748b;
+  
+  --cor-branco: #ffffff;
+  --cor-superficie: #f8fafc;
+  --cor-borda: #e2e8f0;
+  
+  --cor-erro: #dc2626;
+  --cor-info: #2563eb;
+  --cor-aviso: #d97706;
+
+  /* Design System */
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+body {
+  font-family: var(--font-figtree), sans-serif;
+}
+
+.nav-item-hover:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff !important;
+}
+
+.row-hover:hover {
+  background-color: var(--cor-superficie);
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cor-borda);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cor-texto-mutado);
+}
