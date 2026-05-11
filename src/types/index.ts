@@ -5,38 +5,47 @@ export interface User {
   photoURL: string | null;
 }
 
+export type TipoOperacao = 'Compra' | 'Venda';
+export type TipoAtivo = 'acao' | 'fii' | 'tesouro' | 'cri' | 'cra' | 'cdb' | 'lci' | 'lca' | 'cripto' | 'outro';
+
 export interface Operacao {
   id?: string;
   userId: string;
   ticker: string;
-  tipo: 'compra' | 'venda' | 'dividendo';
+  nomeAtivo?: string;
+  tipo: TipoOperacao;
   quantidade: number;
-  preco: number;
-  data: string; // ISO date
-  categoria?: string;
-  subcategoria?: string;
+  precoUnitario: number;
+  dataOperacao: number; // timestamp
   corretora?: string;
   observacoes?: string;
-  createdAt?: string;
-  updatedAt?: string;
+  createdAt?: number;
+  updatedAt?: number;
 }
 
 export interface AtivoCarteira {
   ticker: string;
-  nome?: string;
-  qtdTotal: number;
-  valorTotalInvestido: number;
+  nomeAtivo?: string;
+  quantidade: number;
   precoMedio: number;
-  categoria?: string;
-  subcategoria?: string;
-  corretora?: string;
-  vencimento?: string;
-  rentabilidade?: number;
+  precoAtual?: number;
+  totalInvestido: number;
+  valorAtual: number;
+  gainLoss: number;
+  gainLossPercent: number;
+  percentualCarteira: number;
+  operacoes?: Operacao[];
 }
 
 export interface CarteiraState {
-  ativos: Record<string, AtivoCarteira>;
+  ativos: AtivoCarteira[];
   operacoes: Operacao[];
   totalInvestido: number;
-  patrimonio: number;
+  patrimonioTotal: number;
+  totalGainLoss: number;
+  totalGainLossPercent: number;
+  sidebarCollapsed: boolean;
+  hideValues: boolean;
+  loading: boolean;
+  error: string | null;
 }
