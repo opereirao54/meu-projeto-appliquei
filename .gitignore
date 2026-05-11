@@ -1,67 +1,112 @@
-# Documentation and legacy files
-docs/
-legacy/
-
-# Temporary and backup files
-*.tmp
-*~
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
+```
 # Dependencies
 node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+public/dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-venv/
 env/
-ENV/
+venv/
 .venv/
-.env/
 pip-log.txt
 pip-delete-this-directory.txt
-
-# Build and distribution
-dist/
-build/
-*.egg-info/
 .tox/
 .coverage
-htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.po
+*~
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.eggs/
+*.egg-info/
+.installed.cfg
+.pip-tools.lock
+.DS_Store
 
-# Backup files
-*.bak
-*.orig
-*.rej
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+web_modules/
+libpeerconnection.log
+npm/
+.eslintcache
+.autojump
+.vscode/
+.idea/
 
-# Compiled files
-*.o
+# Logs
+*.log
+*.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+.tmptags
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+Icon?
+VolumeIcon.icns
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Compiled Binary files
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
-*.exe
-*.class
-*.jar
-*.war
-*.ear
+*.o
+*.obj
+*.a
+*.lib
+*.out
 
 # Compressed archives
 *.zip
@@ -71,493 +116,511 @@ htmlcov/
 *.gz
 *.rar
 *.7z
-
-# Generated documentation
-docs/_build/
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 
 # Testing
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+jasmine.json
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
+# Local configuration
+config/local.json
+.sass-cache/
 
-# Configuration backups
-config.bak/
-backup/
-
-# IDE specific
-*.iml
-*.ipr
-*.iws
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 nbproject/
 
-# System files
-*~
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
-._*
+# CI
+.semaphore/semaphore.yml
 
-# Logs
-*.log*
-*.trace
+# Docker
+.docker/
 
-# Coverage reports
-coverage/
-*.gcov
-*.lcov
-*.profraw
-*.profdata
+# Git
+.git/
 
-# Distribution / packaging
-*.egg
-*.egg-info/
-.eggs/
-eggs/
-parts/
-var/
-sdist/
-develop-eggs/
-.installed.cfg
-*.egg-link
+# Bower
+bower_components/
 
-# PyInstaller
-*.spec
+# JSHint
+.jshintrc
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-coverage.xml
-*.cover
-*.coverage.*
-.coverage
+# ESLint
+.eslintcache
 
-# Translations
-*.mo
-*.pot
+# TypeScript
+*.tsbuildinfo
+*.tsx
+*.jsx
 
-# Django
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+# Tailwind CSS
+.tailwind/
+.tailwindrc.js
 
-# Flask
-instance/
-.webassets-cache
+# Firebase
+.firebase/
+firepit/
+.firebase-adminsdk-*.json
 
-# Scrapy
-.scrapy
+# Vercel/Now
+.now/
 
-# Sphinx documentation
-docs/_build/
+# Netlify
+.netlify/
 
-# PyBuilder
-target/
+# Heroku
+.heroku/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# AWS Amplify
+amplify/
 
-# IPython
-profile_default/
-ipython_config.py
+# Expo
+.expo/
+.expo-shared/
 
-# pyenv
-.python-version
+# React Native
+.rncache/
+react-native/
 
-# pipenv
-Pipfile.lock
+# Webpack
+webpack.config.js
+webpack-stats.json
 
-# PEP 582
-__pypackages__/
+# Jest
+jest.config.js
+jest.setup.js
 
-# Celery
-celerybeat-schedule
-celerybeat.pid
+# Cypress
+cypress/screenshots/
+cypress/videos/
 
-# SageMath parsed files
-*.sage.py
+# Storybook
+storybook-static/
 
-# Environments
-.env.d/
+# Prisma
+prisma/migrations/
 
-# mamba
-.mamba-trace
+# Next.js
+.next/
+out/
+.next/cache/
 
-# poetry
-poetry.lock
+# Nuxt.js
+.nuxt/
+dist/
+.output/
 
-# conda
-environment.yml
-environment.yaml
+# Gatsby
+.public/
+.cache/
 
-# virtualenv
-.venv.bak/
+# Angular
+.angular/
 
-# tox
-.tox/
+# Vue
+.vuepress/dist
+.vuepress/.cache
+.vuepress/.temp
 
-# pytest
-pytestdebug.log
+# Svelte
+.svelte-kit/
 
-# nose
-.noseids
+# Astro
+.dist/
+.build/
 
-# coverage
-.cover
+# Deno
+deno.lock
 
-# pylint
-.pylintrc
+# Bun
+bun.lockb
 
-# mypy
-.mypy_cache/
-
-# black
-.black.cache/
-
-# flake8
-.flake8
-
-# bandit
-.bandit
-
-# safety
-.safety-db
-
-# pre-commit
-.pre-commit-config.yaml
-
-# docker
-.dockerignore
-
-# kubernetes
-.kubeconfig
-
-# terraform
-.terraform/
-*.tfstate
-*.tfvars
-
-# ansible
-*.retry
-
-# vagrant
-.vagrant/
-
-# packer
-packer_cache/
-
-# gradle
-.gradle/
-build/
-
-# maven
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-# sbt
-target/
-lib_managed/
-src_managed/
-
-# leiningen
-target/
-test-target/
-*.iml
-*.ipr
-*.iws
-.checkouts/
-.lein-repl-history
-.lein-deps-sum
-.lein-failures
-.lein-plugins/
-.lein-updates
-.lein-env
-
-# clojure
-.clj-kondo/
-.lsp/
-.nrepl-port
-
-# rust
+# Rust
 target/
 Cargo.lock
-*.so
-*.dylib
-*.dll
 
-# go
-*.o
-*.a
-*.swp
-*~
-.go
-.go-build/
+# Go
 vendor/
+go.sum
+go.mod
 
-# java
-*.class
-*.jar
-*.war
-*.ear
-*.tar.gz
-*.orig
-*.rej
-*.tmp
-*.log
-*.swp
-*~
-.DS_Store
-Thumbs.db
-.classpath
-.project
-.settings/
-bin/
-gen/
-out/
-*.iws
-*.ipr
-*.iml
-nbproject/
-*.swp
-*.swo
-*.tmp
-*.log
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-ENV/
-.venv/
-env.bak/
-venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-*.egg-info/
-.eggs/
-dist/
-build/
-.coverage
-htmlcov/
-.tox/
-.cover
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
-*~
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
-*.log*
-*.trace
-coverage/
-*.gcov
-*.lcov
-*.profraw
-*.profdata
-*.egg
-*.egg-info/
-.eggs/
-eggs/
-parts/
-var/
-sdist/
-develop-eggs/
-.installed.cfg
-*.egg-link
-*.spec
-htmlcov/
-.tox/
-.nox/
-coverage.xml
-*.cover
-*.coverage.*
-.coverage
-*.mo
-*.pot
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-instance/
-.webassets-cache
-.scrapy
-docs/_build/
-*.sage.py
-.env.d/
-.mamba-trace
-poetry.lock
-environment.yml
-environment.yaml
-.venv.bak/
-.tox/
-pytestdebug.log
-.noseids
-.cover
-.pylintrc
-.mypy_cache/
-.black.cache/
-.flake8
-.bandit
-.safety-db
-.pre-commit-config.yaml
-.dockerignore
-.kubeconfig
-.terraform/
-*.tfstate
-*.tfvars
-*.retry
-.vagrant/
-packer_cache/
+# Java
+target/
 .gradle/
 build/
-target/
-!.mvn/wrapper/maven-wrapper.jar
-lib_managed/
-src_managed/
-.checkouts/
-.lein-repl-history
-.lein-deps-sum
-.lein-failures
-.lein-plugins/
-.lein-updates
-.lein-env
-.clj-kondo/
-.lsp/
-.nrepl-port
-*.o
-*.a
-*.swp
-*~
-.go
-.go-build/
-vendor/
 *.class
 *.jar
 *.war
 *.ear
-*.tar.gz
-*.orig
-*.rej
-*.tmp
-*.log
-*.swp
-*~
-.DS_Store
-Thumbs.db
-.classpath
-.project
-.settings/
+hs_err_pid*
+
+# C#
 bin/
-gen/
-out/
-*.iws
-*.ipr
-*.iml
-nbproject/
-*.swp
-*.swo
-*.tmp
-*.log
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-ENV/
-.venv/
-env.bak/
-venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-*.egg-info/
-.eggs/
-dist/
-build/
-.coverage
-htmlcov/
-.tox/
-.cover
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
-*~
-.DS_Store?
-ehthumbs.db
-Icon?
-Thumbs.db
-*.log*
-*.trace
-coverage/
-*.gcov
-*.lcov
-*.profraw
-*.profdata
-*.egg
-*.egg-info/
-.eggs/
-eggs/
-parts/
-var/
-sdist/
-develop-eggs/
-.installed.cfg
-*.egg-link
-*.spec
-htmlcov/
-.tox/
-.nox/
-coverage.xml
-*.cover
-*.coverage.*
-.coverage
-*.mo
-*.pot
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-instance/
-.webassets-cache
-.scrapy
-docs/_build/
-*.sage.py
-.env.d/
-.mamba-trace
-poetry.lock
-environment.yml
-environment.yaml
-.venv.bak/
-.tox/
-pytestdebug.log
-.noseids
-.cover
-.pylintrc
-.mypy_cache/
-.black.cache/
-.flake8
-.bandit
-.safety-db
-.pre-commit-config.yaml
-.dockerignore
-.kubeconfig
-.terraform/
-*.tfstate
-*.tfvars
-*.retry
-.vagrant/
-packer_cache/
+obj/
+*.sln
+*.csproj.user
+*.userosscache
+*.suo
+
+# PHP
+vendor/
+composer.lock
+
+# Ruby
+vendor/bundle/
+Gemfile.lock
+
+# Elixir
+deps/
+_mix/
+*.ez
+.erlang.cookie
+
+# Haskell
+dist-newstyle/
+.cabal-sandbox/
+*.o
+*.hi
+
+# Lua
+.luac
+
+# Perl
+blib/
+*.al
+*.prelink
+
+# Objective-C
+*.xcodeproj/
+*.xcworkspace/
+*.framework
+*.app
+
+# Swift
+*.xcodeproj/
+*.xcworkspace/
+*.framework
+*.app
+
+# Unity
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+*.unityproj
+*.userprefs
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.pidb
+*.pdb
+*.mdb
+*.unity
+*.prefab
+*.mat
+*.anim
+*.controller
+*.meta
+*.asset
+*.cubemap
+*.flare
+*.fontsettings
+*.giparams
+*.physicsmaterial
+*.guiskin
+*.lphysicmaterial2D
+*.playable
+*.renderTexture
+*.mask
+*.overrideController
+*.spriteatlas
+*.terrainlayer
+*.tflite
+*.asmdef
+*.rsp
+*.uss
+*.uxml
+*.physicsMaterial2D
+*.physicsShape
+*.signal
+*.visualscript
+*.vfx
+*.vfx.meta
+*.compute
+*.cd
+*.mask
+*.maskAnimation
+*.guistyle
+*.gizmos
+*.gizmo
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.overrideController.meta
+*.playable
+*.playable.meta
+*.stateMachine
+*.stateMachine.meta
+*.statemachine
+*.statemachine.meta
+*.transition
+*.transition.meta
+*.substate
+*.substate.meta
+*.subStateMachine
+*.subStateMachine.meta
+*.layer
+*.layer.meta
+*.mask
+*.mask.meta
+*.maskAnimation
+*.maskAnimation.meta
+*.guistyle
+*.guistyle.meta
+*.gizmos
+*.gizmos.meta
+*.gizmo
+*.gizmo.meta
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.overrideController.meta
+*.playable
+*.playable.meta
+*.stateMachine
+*.stateMachine.meta
+*.statemachine
+*.statemachine.meta
+*.transition
+*.transition.meta
+*.substate
+*.substate.meta
+*.subStateMachine
+*.subStateMachine.meta
+*.layer
+*.layer.meta
+*.mask
+*.mask.meta
+*.maskAnimation
+*.maskAnimation.meta
+*.guistyle
+*.guistyle.meta
+*.gizmos
+*.gizmos.meta
+*.gizmo
+*.gizmo.meta
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.overrideController.meta
+*.playable
+*.playable.meta
+*.stateMachine
+*.stateMachine.meta
+*.statemachine
+*.statemachine.meta
+*.transition
+*.transition.meta
+*.substate
+*.substate.meta
+*.subStateMachine
+*.subStateMachine.meta
+*.layer
+*.layer.meta
+*.mask
+*.mask.meta
+*.maskAnimation
+*.maskAnimation.meta
+*.guistyle
+*.guistyle.meta
+*.gizmos
+*.gizmos.meta
+*.gizmo
+*.gizmo.meta
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.overrideController.meta
+*.playable
+*.playable.meta
+*.stateMachine
+*.stateMachine.meta
+*.statemachine
+*.statemachine.meta
+*.transition
+*.transition.meta
+*.substate
+*.substate.meta
+*.subStateMachine
+*.subStateMachine.meta
+*.layer
+*.layer.meta
+*.mask
+*.mask.meta
+*.maskAnimation
+*.maskAnimation.meta
+*.guistyle
+*.guistyle.meta
+*.gizmos
+*.gizmos.meta
+*.gizmo
+*.gizmo.meta
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.overrideController.meta
+*.playable
+*.playable.meta
+*.stateMachine
+*.stateMachine.meta
+*.statemachine
+*.statemachine.meta
+*.transition
+*.transition.meta
+*.substate
+*.substate.meta
+*.subStateMachine
+*.subStateMachine.meta
+*.layer
+*.layer.meta
+*.mask
+*.mask.meta
+*.maskAnimation
+*.maskAnimation.meta
+*.guistyle
+*.guistyle.meta
+*.gizmos
+*.gizmos.meta
+*.gizmo
+*.gizmo.meta
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.overrideController.meta
+*.playable
+*.playable.meta
+*.stateMachine
+*.stateMachine.meta
+*.statemachine
+*.statemachine.meta
+*.transition
+*.transition.meta
+*.substate
+*.substate.meta
+*.subStateMachine
+*.subStateMachine.meta
+*.layer
+*.layer.meta
+*.mask
+*.mask.meta
+*.maskAnimation
+*.maskAnimation.meta
+*.guistyle
+*.guistyle.meta
+*.gizmos
+*.gizmos.meta
+*.gizmo
+*.gizmo.meta
+*.curves
+*.curves.meta
+*.gradient
+*.gradient.meta
+*.curve
+*.curve.meta
+*.blendshape
+*.blendshape.meta
+*.cloth
+*.cloth.meta
+*.avatar
+*.avatar.meta
+*.controller
+*.controller.meta
+*.overrideController
+*.override......
+```
