@@ -19,10 +19,20 @@ Esta skill vive no repositório `opereirao54/meu-projeto-appliquei`, em `.claude
 
 ## 2. O que performa (dados da própria página)
 
-| Post | Views | Curtidas | Seguidores |
-|---|---|---|---|
-| Interpol (notícia) | 5,5 mil | 51 (0,9%) | 12 |
-| Carta (fala dele) | 2,3 mil | 219 (9,5%) | 32 |
+Métricas completas dos dois melhores posts (29/10, 7h30):
+
+| | Interpol (notícia) | Carta (fala dele) |
+|---|---|---|
+| Views | 11,4 mil | 4,1 mil |
+| Curtidas | 89 (0,8%) | 376 (9,3%) |
+| Comentários | 24 | 61 |
+| Compartilhamentos | 12 | 4 |
+| Salvamentos | 4 | 19 |
+| Novos seguidores | 15 (1,3 a cada mil views) | 58 (14 a cada mil views) |
+| Tempo médio por view | ~9 s | ~11 s |
+
+- A notícia alcança quase 3× mais e é mais compartilhada; a fala dele converte ~11× mais em seguidores, curtidas e salvamentos.
+- Nos dois, o pico durou só algumas horas e depois zerou: cada post vive pouco, por isso o ritmo diário e o timing importam.
 
 Visualizações no perfil em 29/10 de manhã:
 
