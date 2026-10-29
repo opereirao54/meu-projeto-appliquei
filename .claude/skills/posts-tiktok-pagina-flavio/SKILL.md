@@ -61,6 +61,23 @@ Visualizações no perfil em 29/10 de manhã:
 - Carrossel com 2+ fotos faz o TikTok medir retenção; bom para "resumo do caso". 99% do tráfego vem do "Para você", então repetir um fato forte num carrossel não é problema.
 - Responder comentários nas primeiras horas reativa o post.
 
+### Referências de outras páginas que bombaram (29/10)
+
+| Post | Curtidas | Formato | Verdadeiro? |
+|---|---|---|---|
+| Goiás News: "a caneta de Moraes não alcançou os EUA… Flávio chegou em segurança" | 122,6 mil | print estilo tweet + foto do Flávio sorrindo/acenando | Baseado em fala de Simón Levy; "proteção americana" não confirmada |
+| Mendonça ganha 1,3 mi de seguidores e "supera Messi" | 74,5 mil | foto + manchete amarela/branca grande | Crescimento real; parte inflada por perfis reciclados (Aos Fatos) |
+| GT News: "EUA preparam proteção para Flávio" | 52,3 mil | print estilo tweet + Trump/bandeira/Flávio | Não confirmado |
+| Mensagens "não confio no Mendonça… só fala de Deus" | 28,7 mil | print de "vazamento" | **Falso** (Aos Fatos) |
+| "7 países não aceitam mais pedidos do STF" | 10,4 mil | texto longo + foto | Sem confirmação; tem cara de boato |
+
+Lições:
+- **Clima de vitória engaja mais que lamento.** Os maiores ("chegou em segurança", "a caneta não alcançou") vendem a sensação de que o lado deles está ganhando. Use fatos verdadeiros nesse tom (ex.: "Em segurança em Miami, com visto dos EUA").
+- **Foto do Flávio sorrindo/acenando** (positiva) em vez de séria/tensa.
+- **Formato "print de tweet"** (logo, nome, "🚨 AGORA:" + uma frase) parece notícia quente. Use com o nome da própria página, nunca imitando perfil de terceiros ou veículo.
+- **Curiosidade/comparação inesperada** ("supera Messi") puxa clique.
+- Boa parte dos virais é falsa ou exagerada. A vantagem da página é usar o mesmo formato com fato verdadeiro e fonte — posts falsos sobre Flávio já foram removidos por ordem judicial.
+
 ## 3. Padrão visual
 
 - Formato vertical 1080×1920 (PNG para foto/carrossel; MP4 H.264 30 fps para vídeo).
