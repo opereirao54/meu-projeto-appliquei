@@ -78,6 +78,18 @@ Lições:
 - **Curiosidade/comparação inesperada** ("supera Messi") puxa clique.
 - Boa parte dos virais é falsa ou exagerada. A vantagem da página é usar o mesmo formato com fato verdadeiro e fonte — posts falsos sobre Flávio já foram removidos por ordem judicial.
 
+### Plano diário e ações de alcance
+
+- Viral depende de notícia grande: nos dias fracos, garantir constância (3 posts) e guardar energia para o pico.
+- Horários: 7h–9h (notícia da manhã), 12h–13h (fala/frase dele), 19h–21h (post mais forte do dia, de preferência carrossel curto com rosto na capa). Notícia grande fura o horário: postar em até 30–60 min.
+- Ser o primeiro: alertas/notificações ligadas nos perfis de Flávio, Eduardo e de repórteres de política; Google Alerts para "Flávio Bolsonaro".
+- Som em alta nos posts de foto (o modo foto aceita música e ganha alcance).
+- Legenda com termos que o público pesquisa ("Flávio Bolsonaro Miami", "onde está Flávio", "passaporte Flávio").
+- Responder comentários na 1ª hora, inclusive com "responder com vídeo"/foto; fixar o melhor comentário.
+- Comentar cedo e com conteúdo nos posts virais de páginas grandes do mesmo nicho (leva gente ao perfil).
+- Séries ("Dia 3 em Miami", "O que mudou desde domingo") criam hábito de voltar ao perfil.
+- Não fazer: comprar seguidores, follow/unfollow em massa, repostar a mesma imagem, mais de ~6 posts/dia, conteúdo falso.
+
 ## 3. Padrão visual
 
 - Formato vertical 1080×1920 (PNG para foto/carrossel; MP4 H.264 30 fps para vídeo).
