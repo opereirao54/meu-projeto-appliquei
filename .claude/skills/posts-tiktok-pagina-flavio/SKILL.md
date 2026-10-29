@@ -32,7 +32,7 @@ Visualizações no perfil em 29/10 de manhã:
 | Interpol | foto única | rosto do Flávio + card + "59,8 milhões" | 11.500 |
 | Trump "boas pessoas" | foto única | desembarque (pessoas pequenas) | 1.413 |
 | 7 minutos | foto única | rosto do Flávio + número gigante | 971 |
-| "O discurso é democracia" (1º post) | foto única | rosto + print | ~461 |
+| "O discurso é democracia" (1º post) | foto única | rosto + print + passaporte | 961 |
 | Carrossel "Não é fuga. É exílio." | carrossel 7 fotos | desembarque, sem rosto | 45 |
 | Vídeo do debate | vídeo 64 s | frame largo do debate | ~30 |
 
