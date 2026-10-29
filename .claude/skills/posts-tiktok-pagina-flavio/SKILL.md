@@ -1,0 +1,78 @@
+---
+name: posts-tiktok-pagina-flavio
+description: Criar posts virais (foto, carrossel, vídeo curto) para a página de apoiadores de Flávio Bolsonaro no TikTok, a partir das notícias mais recentes e no padrão visual que deu certo.
+---
+
+# Posts para a página de apoiadores do Flávio no TikTok
+
+Página de apoiadores (não oficial) de Flávio Bolsonaro no TikTok. O objetivo é engajar a base e ganhar seguidores com posts baseados em fatos verificáveis, sem dar brecha para a página ser derrubada.
+
+Esta skill vive no repositório `opereirao54/meu-projeto-appliquei`, em `.claude/skills/posts-tiktok-pagina-flavio/SKILL.md`. Quando o usuário pedir "atualiza a skill" ou surgir um aprendizado concreto (resultado de post, formato novo, regra nova), edite este arquivo, faça commit no `main` e push. Os scripts de geração ficam em `scripts/` e os posts já feitos em `posts/`.
+
+## 1. Buscar a notícia
+
+- Sempre pesquise antes de criar. O assunto muda de hora em hora, e o usuário pede "algo atualizado".
+- Use WebSearch (modo extended para notícias do dia) e abra as matérias com WebFetch para pegar datas, horários e citações exatas.
+- Confirme em pelo menos 2 veículos antes de tratar algo como fato. Se só um site publicou, com fontes anônimas, avise e não use como fato.
+- Fique atento a boatos já desmentidos (ex.: vídeo antigo de Flávio nos EUA, operação da PF negada pelo STF). Não use.
+- Ao trazer notícias, mostre o resumo com datas, o que ainda não está confirmado e a lista de fontes.
+
+## 2. O que performa (dados da própria página)
+
+| Post | Views | Curtidas | Seguidores |
+|---|---|---|---|
+| Interpol (notícia) | 5,5 mil | 51 (0,9%) | 12 |
+| Carta (fala dele) | 2,3 mil | 219 (9,5%) | 32 |
+
+- **Notícia urgente traz alcance.** Card com "URGENTE", data e fonte; um número forte (ex.: "59,8 milhões de votos"); contraste em uma linha; pergunta de uma palavra no fim ("PERSEGUIÇÃO?").
+- **Fala do Flávio em primeira pessoa traz seguidores.** Frase emocional dele em destaque + pergunta de lado ("VOCÊ ESTÁ COM ELE?").
+- Alterne os dois tipos (um de cada por dia é um bom ritmo).
+- Poste no pico: até 1–2 horas depois de a notícia ou a fala sair.
+- Carrossel com 2+ fotos faz o TikTok medir retenção; bom para "resumo do caso". 99% do tráfego vem do "Para você", então repetir um fato forte num carrossel não é problema.
+- Responder comentários nas primeiras horas reativa o post.
+
+## 3. Padrão visual
+
+- Formato vertical 1080×1920 (PNG para foto/carrossel; MP4 H.264 30 fps para vídeo).
+- Fundo escuro (#0C0C0C) com brilho difuso verde/amarelo no topo e granulado leve.
+- Fonte: DejaVu Sans Condensed Bold para títulos, Condensed regular para texto de apoio.
+- Cores: amarelo #F5C400 (faixa com texto preto), vermelho #B21218 (faixa com texto branco), azul-marinho #14285F no cabeçalho de cards de notícia "neutros"/EUA.
+- Faixas com bordas "pinceladas" atrás das palavras-chave.
+- Estrutura de foto única:
+  1. Foto no topo (~864 px) com degradê para o fundo.
+  2. Selo opcional no topo (ex.: "URGENTE · MIAMI").
+  3. Card de notícia claro (#F6F4EE), cabeçalho colorido com rótulo + data, manchete em 3 linhas, linha de apoio, "Fonte: ...".
+  4. Frase forte em branco + faixa amarela.
+  5. Pergunta curta em faixa vermelha.
+  6. Crédito da imagem no rodapé ("Imagem: TV Band", "Imagem: reprodução g1").
+- Carrossel: numeração "n/N" no canto, capa com "Arrasta pro lado →", último slide com a pergunta e o rodapé de ressalvas.
+- Sempre gere uma prévia reduzida e confira se algum texto vaza da largura; reduza a fonte se vazar.
+- Os helpers de desenho (`bar`, `big`, `small`, fundo) estão em `scripts/video_debate.py`; os cards de notícia em `scripts/carrossel_quem_julga.py`.
+
+## 4. Imagens
+
+- Fotos do Flávio: frames do vídeo do debate da Band enviado pelo usuário, ou prints de notícia que ele mandar (recortar só a foto, creditar o veículo).
+- Não baixar fotos de figuras públicas da internet. Se o usuário quiser foto de outra pessoa (ex.: Trump, Moraes), sugerir sobrepor uma imagem oficial no editor do TikTok.
+- Não imitar o visual de portais (g1, CNN etc.). O card é design próprio, com a fonte escrita.
+
+## 5. Legenda e hashtags
+
+- Legenda curta: gancho com o fato ou a frase, 1–2 linhas de contexto, pergunta + 👇.
+- 5–8 hashtags: assunto específico primeiro (#FlávioBolsonaro, #Moraes, #Exílio…), depois nicho (#Oposição, #Bolsonaro) e amplo (#PolíticaBrasileira). No máximo um #fyp.
+- Sugerir um comentário fixado (pergunta para puxar debate, ou "tudo aqui tem fonte").
+
+## 6. Vídeo curto
+
+- Cartões com cortes secos, zoom leve e um flash na transição; 2–5 s por cartão conforme a quantidade de texto (a fala precisa ser lida sem pausar).
+- Trechos de vídeo de terceiros: recortar só a área do vídeo, manter a frase inteira com contexto, nada de corte que mude o sentido. Forçar 30 fps em todas as partes antes de juntar (evita imagem travada com áudio correndo).
+- Trilha sintetizada (grave, batida tipo coração, impactos, sons que sobem) só nos cartões; deixar o áudio original limpo nas falas. Ver `scripts/trilha.py`.
+- Entregar o roteiro de narração com os tempos de cada parte.
+
+## 7. Limites que protegem a página
+
+- Tudo que é apresentado como fato precisa ter fonte. Opinião vira pergunta ("Coincidência?", "Dois pesos, duas medidas?") ou conclusão da página ("Não é fuga. É exílio.").
+- Não fazer conteúdo que afirme fraude eleitoral, negue o resultado de 2026 ou trate Flávio como "presidente eleito". O TSE proclamou o resultado e o TikTok derruba esse tipo de conteúdo. Ao usar a carta ou falas dele, escolher os trechos sobre oposição, exílio e perseguição.
+- Acusações a terceiros (ex.: Moraes no caso Vorcaro) sempre com a ressalva do outro lado no próprio post ("PF não apontou crime; ele nega").
+- Não afirmar rota, asilo, prisão ou paradeiro sem confirmação oficial. Se a situação mudar (ex.: prisão decretada), avisar que o post antigo ficou desatualizado.
+- Perfil: nome e bio devem deixar claro que é página de apoiadores, não oficial, para evitar derrubada por falsa identidade.
+- No fim de cada entrega, dizer em 1–2 frases o contra-argumento que vai aparecer nos comentários, para a página estar preparada.
