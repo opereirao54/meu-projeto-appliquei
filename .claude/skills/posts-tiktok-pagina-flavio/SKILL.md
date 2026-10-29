@@ -16,6 +16,7 @@ Esta skill vive no repositório `opereirao54/meu-projeto-appliquei`, em `.claude
 - Confirme em pelo menos 2 veículos antes de tratar algo como fato. Se só um site publicou, com fontes anônimas, avise e não use como fato.
 - Fique atento a boatos já desmentidos (ex.: vídeo antigo de Flávio nos EUA, operação da PF negada pelo STF). Não use.
 - Ao trazer notícias, mostre o resumo com datas, o que ainda não está confirmado e a lista de fontes.
+- Notícia tem que ser recente: priorize as do dia (ou últimas 24 h) e mostre a data/hora de cada uma. Não apresente como novidade algo de 2–3 dias atrás; se usar, marque como "contexto".
 - Quando o usuário pedir só as notícias, não crie a arte: traga as notícias, diga quais são fortes para a página (e por quê) e espere ele pedir o post.
 - Responda sempre em português.
 
