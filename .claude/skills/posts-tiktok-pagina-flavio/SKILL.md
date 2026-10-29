@@ -29,7 +29,7 @@ Visualizações no perfil em 29/10 de manhã:
 | Post | Formato | Capa | Views |
 |---|---|---|---|
 | Carta "Saí do Brasil…" | foto única | rosto do Flávio grande + frase dele | 4.051 |
-| Interpol | foto única | rosto do Flávio + card | ~5,5 mil |
+| Interpol | foto única | rosto do Flávio + card + "59,8 milhões" | 11.500 |
 | Trump "boas pessoas" | foto única | desembarque (pessoas pequenas) | 1.413 |
 | 7 minutos | foto única | rosto do Flávio + número gigante | 971 |
 | "O discurso é democracia" (1º post) | foto única | rosto + print | ~461 |
