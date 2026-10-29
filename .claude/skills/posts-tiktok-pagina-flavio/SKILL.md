@@ -24,6 +24,23 @@ Esta skill vive no repositório `opereirao54/meu-projeto-appliquei`, em `.claude
 | Interpol (notícia) | 5,5 mil | 51 (0,9%) | 12 |
 | Carta (fala dele) | 2,3 mil | 219 (9,5%) | 32 |
 
+Visualizações no perfil em 29/10 de manhã:
+
+| Post | Formato | Capa | Views |
+|---|---|---|---|
+| Carta "Saí do Brasil…" | foto única | rosto do Flávio grande + frase dele | 4.051 |
+| Interpol | foto única | rosto do Flávio + card | ~5,5 mil |
+| Trump "boas pessoas" | foto única | desembarque (pessoas pequenas) | 1.413 |
+| 7 minutos | foto única | rosto do Flávio + número gigante | 971 |
+| "O discurso é democracia" (1º post) | foto única | rosto + print | ~461 |
+| Carrossel "Não é fuga. É exílio." | carrossel 7 fotos | desembarque, sem rosto | 45 |
+| Vídeo do debate | vídeo 64 s | frame largo do debate | ~30 |
+
+- **Capa com o rosto do Flávio grande é o que mais segura o scroll.** As capas sem rosto (desembarque visto de longe) foram as mais fracas.
+- **Foto única > carrossel longo > vídeo com trecho de TV**, até agora. Carrossel só com capa forte (rosto + frase) e no máximo 3–4 fotos. Vídeo com imagem da Band provavelmente foi limitado por direitos autorais; preferir vídeo só com cartões e narração.
+- Ritmo: 3–5 posts por dia nos picos (7h–9h, 12h–14h, 19h–22h), sem dois no mesmo horário; notícia grande fura o calendário (postar em até 1 h). Não repostar a mesma imagem. Não apagar os que não pegaram.
+- Medir a primeira hora: >500 views → responder comentários e fixar um; <200 → anotar o que era diferente.
+
 - **Notícia urgente traz alcance.** Card com "URGENTE", data e fonte; um número forte (ex.: "59,8 milhões de votos"); contraste em uma linha; pergunta de uma palavra no fim ("PERSEGUIÇÃO?").
 - **Fala do Flávio em primeira pessoa traz seguidores.** Frase emocional dele em destaque + pergunta de lado ("VOCÊ ESTÁ COM ELE?").
 - Alterne os dois tipos (um de cada por dia é um bom ritmo).
