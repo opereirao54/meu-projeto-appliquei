@@ -92,6 +92,7 @@ Lições:
   4. Frase forte em branco + faixa amarela.
   5. Pergunta curta em faixa vermelha.
   6. Crédito da imagem no rodapé ("Imagem: TV Band", "Imagem: reprodução g1").
+- **Logo da página:** `assets/logo_pagina.jpg` (selo redondo "USA & Brazil Visit · Flavio Bolsonaro"). Usar sempre como avatar no formato "print de tweet" (recortado em círculo), ao lado de "FlavioBolsonaroUSA" / "Página de apoiadores". Sem selo de verificado. Script de referência: `scripts/posts_estilo_tweet.py`.
 - Carrossel: numeração "n/N" no canto, capa com "Arrasta pro lado →", último slide com a pergunta e o rodapé de ressalvas.
 - Sempre gere uma prévia reduzida e confira se algum texto vaza da largura; reduza a fonte se vazar.
 - Os helpers de desenho (`bar`, `big`, `small`, fundo) estão em `scripts/video_debate.py`; os cards de notícia em `scripts/carrossel_quem_julga.py`.
