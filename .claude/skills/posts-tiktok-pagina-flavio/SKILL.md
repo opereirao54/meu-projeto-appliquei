@@ -113,6 +113,7 @@ Lições:
 
 - Fotos do Flávio: frames do vídeo do debate da Band enviado pelo usuário, ou prints de notícia que ele mandar (recortar só a foto, creditar o veículo).
 - Não baixar fotos de figuras públicas da internet. Se o usuário quiser foto de outra pessoa (ex.: Trump, Moraes), sugerir sobrepor uma imagem oficial no editor do TikTok.
+- Não usar imagens geradas por IA de pessoas reais (ex.: Flávio com Trump em cena que não aconteceu), nem quando o usuário mandar. Se uma foto parecer IA, perguntar a origem antes de usar. Fotos antigas reais podem ser usadas com a data no rodapé.
 - Não imitar o visual de portais (g1, CNN etc.). O card é design próprio, com a fonte escrita.
 
 ## 5. Legenda e hashtags
