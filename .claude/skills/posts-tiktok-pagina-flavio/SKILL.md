@@ -126,6 +126,7 @@ Lições:
   5. 3º parágrafo (opcional): o que vem depois / o que está em jogo.
   6. Pergunta + chamada ("Comenta 👇 e compartilha").
   7. Hashtags.
+  Linguagem do povo: frases curtas, palavras simples ("travou", "tá parado", "e aí?"), sem juridiquês ("Dosimetria" vira "a lei que diminui as penas"). Explicar como se fosse para alguém no grupo da família.
   Escrever com os termos que o público pesquisa ("Flávio Bolsonaro Miami", "Rogério Marinho Senado"). Nada de afirmar o que não está confirmado.
 - 5–8 hashtags: assunto específico primeiro (#FlávioBolsonaro, #Moraes, #Exílio…), depois nicho (#Oposição, #Bolsonaro) e amplo (#PolíticaBrasileira). No máximo um #fyp.
 - Sugerir um comentário fixado (pergunta para puxar debate, ou "tudo aqui tem fonte").
