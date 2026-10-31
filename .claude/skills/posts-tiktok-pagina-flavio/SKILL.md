@@ -118,7 +118,15 @@ Lições:
 
 ## 5. Legenda e hashtags
 
-- Legenda curta: gancho com o fato ou a frase, 1–2 linhas de contexto, pergunta + 👇.
+- Legenda no estilo das páginas virais (Goiás News, Helbert Dias), mais completa, como matéria curta:
+  1. Linha de selo: "🔴 URGENTE | POLÍTICA" (ou "INTERNACIONAL", "STF"…).
+  2. Manchete em CAIXA ALTA com a frase/fato principal.
+  3. 1º parágrafo: quem, o quê, quando e onde, citando o veículo ("Segundo o Metrópoles, …").
+  4. 2º parágrafo: contexto (o que aconteceu antes) em 2–3 frases.
+  5. 3º parágrafo (opcional): o que vem depois / o que está em jogo.
+  6. Pergunta + chamada ("Comenta 👇 e compartilha").
+  7. Hashtags.
+  Escrever com os termos que o público pesquisa ("Flávio Bolsonaro Miami", "Rogério Marinho Senado"). Nada de afirmar o que não está confirmado.
 - 5–8 hashtags: assunto específico primeiro (#FlávioBolsonaro, #Moraes, #Exílio…), depois nicho (#Oposição, #Bolsonaro) e amplo (#PolíticaBrasileira). No máximo um #fyp.
 - Sugerir um comentário fixado (pergunta para puxar debate, ou "tudo aqui tem fonte").
 
